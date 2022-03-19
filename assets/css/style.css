@@ -1,3 +1,4 @@
+@import 'bulma/css/bulma-rtl.min.css';
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -38,6 +39,33 @@
 }
 .btn-link:hover {
   color: #934fc4 !important;
+}
+
+.navbar-end {
+  margin: auto !important;
+  justify-content: space-between !important;
+}
+
+.bg-light, .navbar-light {
+  background-color: transparent !important;
+}
+
+a.navbar-item:hover {
+  background-color: transparent !important;
+}
+
+.input {
+  border-color: var(--dark-bg) !important;
+  background-color: var(--dark-bg) !important;
+}
+
+input::placeholder {
+  color: #ffffff80 !important;
+}
+
+.rose-button {
+  background-color: var(--button-bg) !important;
+  border-color: var(--button-bg) !important;
 }
 
 /*# sourceMappingURL=style.css.map */

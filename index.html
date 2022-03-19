@@ -15,35 +15,77 @@
 
 <body>
     <section class="section principal-section">
-        <header>
-            <div class="container">
-                <!-- nav -->
-
-                <!-- nav -->
-                <div class="columns">
-                    <div class="column">
-                        <h1 class="is-size-3 f-weight-7 color">Veja o guia definitivo para conquistar seus objetivos
-                            <br /> como DEV em 2022</h1>
-                        <p class="light-purple pr-5 mr-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                            Exercitationem, odio tempore earum
-                            ex voluptas <br /> voluptatibus atque tempora modi omnis provident!</p>
-
-                        <a href="#" class="bt btn-link is-flex">Veja mais
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5 12H19" stroke="#4FFF4B" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                                <path d="M12 5L19 12L12 19" stroke="#4FFF4B" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" />
-                            </svg>
+        <div class="container">
+            <header>
+                <nav class="navbar position-absolute navbar-light bg-light" role="navigation"
+                    aria-label="main navigation">
+                    <div class="navbar-brand">
+                        <a class="navbar-item" href="https://bulma.io">
+                            <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                        </a>
+                        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+                            data-target="navbarBasicExample">
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
+                            <span aria-hidden="true"></span>
                         </a>
                     </div>
-                    <div class="column">
-                        <img src="assets/images/featured-image.png" class="img-fluid" alt="" srcset="">
+
+                    <div id="navbarBasicExample" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a class="navbar-item has-text-light">
+                                Home
+                            </a>
+                            <a class="navbar-item has-text-light">
+                                Sobre
+                            </a>
+                            <a class="navbar-item has-text-light">
+                                Categorias
+                            </a>
+                            <a class="navbar-item has-text-light">
+                                Contato
+                            </a>
+                        </div>
+
+                        <div class="navbar-item">
+                            <div class="field has-addons">
+                                <div class="control">
+                                    <input class="input" placeholder="Buscar" type="text" />
+                                </div>
+                                <div class="control">
+                                    <a href="#" class="rose-button button"></a>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
+                </nav>
+            </header>
+        </div>
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <h1 class="is-size-3 f-weight-7 color">Veja o guia definitivo para conquistar seus objetivos
+                        <br /> como DEV em 2022
+                    </h1>
+                    <p class="light-purple pr-5 mr-5 py-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Exercitationem, odio tempore earum
+                        ex voluptas <br /> voluptatibus atque tempora modi omnis provident!</p>
+
+                    <a href="#" class="bt btn-link is-flex">Veja mais
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12H19" stroke="#4FFF4B" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M12 5L19 12L12 19" stroke="#4FFF4B" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+                <div class="column">
+                    <img src="assets/images/featured-image.png" class="img-fluid" alt="" srcset="">
                 </div>
             </div>
-        </header>
+        </div>
     </section>
 </body>
 
