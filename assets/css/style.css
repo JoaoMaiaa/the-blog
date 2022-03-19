@@ -1,0 +1,43 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --purple-bg: #290742;
+  --dark-bg: #170027;
+  --button-bg: #9e6dc2;
+  --white: #fff;
+  --light-purple: #fbf6ff;
+  --green: #4fff4b;
+}
+
+.f-weight-4 {
+  font-weight: 400;
+}
+
+.f-weight-7 {
+  font-weight: 700;
+}
+
+.principal-section {
+  background-color: var(--purple-bg) !important;
+}
+
+.color {
+  color: var(--button-bg) !important;
+}
+
+.light-purple {
+  color: var(--light-purple) !important;
+}
+
+.btn-link {
+  color: var(--button-bg) !important;
+}
+.btn-link:hover {
+  color: #934fc4 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
