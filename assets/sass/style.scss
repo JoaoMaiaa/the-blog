@@ -26,10 +26,11 @@
 .principal-section{
     // padding-top:0rem!important;
     background-color: var(--purple-bg)!important;
+    border-bottom:5px solid var(--green);
 }
 
 .color{
-    color:var(--button-bg)!important;
+    color:var(--button-bg);
 }
 
 .light-purple{
@@ -60,6 +61,7 @@ a.navbar-item:hover {
     // border-radius:0px;
     border-color:var(--dark-bg)!important;
     background-color:var(--dark-bg)!important;
+    color:var(--light-purple)!important;
 }
 
 input::placeholder{
