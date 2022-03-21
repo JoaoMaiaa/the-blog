@@ -24,7 +24,6 @@
 }
 
 .principal-section{
-    // padding-top:0rem!important;
     background-color: var(--purple-bg)!important;
     border-bottom:5px solid var(--green);
 }
@@ -58,7 +57,6 @@ a.navbar-item:hover {
 }
 
 .input{
-    // border-radius:0px;
     border-color:var(--dark-bg)!important;
     background-color:var(--dark-bg)!important;
     color:var(--light-purple)!important;
@@ -71,4 +69,8 @@ input::placeholder{
 .rose-button{
     background-color:var(--button-bg)!important;
     border-color:var(--button-bg)!important;
-}   
+}
+
+.navbar-menu{
+    background:transparent!important;
+}

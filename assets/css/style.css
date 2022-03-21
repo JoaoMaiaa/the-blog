@@ -70,4 +70,8 @@ input::placeholder {
   border-color: var(--button-bg) !important;
 }
 
+.navbar-menu {
+  background: transparent !important;
+}
+
 /*# sourceMappingURL=style.css.map */
